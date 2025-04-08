@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: sans-serif;
+}
+
+/* Dark Mode */
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #242726;
+    color: white;
+}
+
+#header-button {
+    cursor: pointer;
+    height: 2em;
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(116, 228, 228);
+}
+
+#header-button:hover {
+    background-color: rgb(8, 234, 234);
+}
+
+/* Header Section */
+
+#header {
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+    margin-top: 1vh;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sub_header1 {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#sub_header2 {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#sub_header2p {
+    height: 10em;
+    width: 20em;
+    background-image: url("lion.jpg");
+    background-size: cover;
+}
+
+#sub_header2p p {
+    color: black;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(127, 148, 255);
+    border: 0.5px solid rgb(119, 119, 119);
+}
+
+/* Main Section */
+
+#study {
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+.sub_study {
+    margin-top: 0.8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+
+/* Cheetah Image */
+
+#sub_study_cheetah {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#sub_study_cheetahp {
+    height: 10em;
+    width: 20em;
+    background-image: url("cheetah.jpg");
+    background-size: cover;
+}
+
+#sub_study_cheetahp p {
+    color: black;
+    font-style: oblique;
+    text-align: center;
+    background-color: rgb(127, 148, 255);
+    border: 0.5px solid rgb(119, 119, 119);
+}
+
+/* Footer */
+
+.footer {
+    height: 5em;
+    margin-top: 1em;
+    color: white;
+    background-color: #171818;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.7em;
+}
+
+#footer-button {
+    cursor: pointer;
+    height: 1.5em;
+    width: 1.5em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.3em;
+    background-color: rgb(255, 255, 100);
+}
+
+#footer-button:hover {
+    background-color: rgb(245, 245, 45);
+}
+
+/* Responsive Footer */
+
+@media (min-width:450px) and (max-width:500px) {
+    .footer-text p {
+        font-size: 1em;
+    }
+}
+@media (min-width:400px) and (max-width:450px) {
+    .footer-text p {
+        font-size: 0.8em;
+    }
+}
+@media (min-width:350px) and (max-width:400px) {
+    .footer-text p {
+        font-size: 0.7em;
+    }
+}
+@media (min-width:270px) and (max-width:350px) {
+    .footer-text p {
+        font-size: 0.6em;
+    }
+}
