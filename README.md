@@ -1,0 +1,1 @@
+World of Quote is a beautiful and responsive quote website built using ReactJS. It displays a collection of inspiring, motivational, and famous quotes from various authors, thinkers, and personalities. The goal of this project is to spread positivity and inspiration through a simple and elegant web interface.
